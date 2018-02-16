@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEEFCB04-F5ED-7AAD-A18C-E5C6010015A2" schemaObject="B6A42B6D-D8AD-8CCC-8CCF-E6F4EAB2D245" name="ERUPTIONHISTORIC">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONHISTORIC</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ERUPTIONIDENTIFIER" id="32C25545-E3ED-2568-C4AF-228C61278EBE">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>ERUPTIONIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLCANOIDENTIFIER" id="536CC25C-4F61-0596-653A-3E0A75FDC010">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>VOLCANOIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FB915D5-5F90-2F8B-002E-680305F60256" referredColumn="0F3595B5-D0EF-BA98-3387-9645CBA510EB"/>
+<colAssociation fkAssociation="82F56F07-AB8B-AB8C-0318-C6184651B389" referredColumn="7074F0D2-522D-58E6-3083-2EBB888B4789"/>
+</associations>
+</Column>
+<Column name="CATEGORYIDENTIFIER" id="3F9E7C18-71C1-BD93-2BA6-36B83D7CE87F">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>CATEGORYIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A4000B-BA6A-B003-AFFE-4E229E5C123E" referredColumn="8C150FBE-553D-DB2A-2F82-C30B8B6D968D"/>
+</associations>
+</Column>
+<Column name="STARTDATE" id="BDED49A7-895C-F8BE-030B-5CD07A70E61D">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>STARTDATE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FINISHDATE" id="D4AD1593-58B4-2256-AFCB-6008EA5A1503">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>FINISHDATE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTAINTY" id="914F5CC1-B614-D1C8-D3F0-6A0604DD307A">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>CERTAINTY</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVIDENCE" id="2AD5F943-866B-E704-A1EF-D7EA43522C1C">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>EVIDENCE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITYAREA" id="A2D406FA-C636-6367-3568-7BCE164FC943">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONHISTORIC</sourceObjSchema>
+<sourceObjName>ACTIVITYAREA</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0911D89F-3357-02B9-A25C-600796702278" name="ERUPTIONHISTORIC_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONHISTORIC_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32C25545-E3ED-2568-C4AF-228C61278EBE"/>
+<colUsage columnID="536CC25C-4F61-0596-653A-3E0A75FDC010"/>
+<colUsage columnID="3F9E7C18-71C1-BD93-2BA6-36B83D7CE87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95FB880E-6D59-F1B4-8671-EBF47FBF31BE" schemaObject="B6A42B6D-D8AD-8CCC-8CCF-E6F4EAB2D245" name="ERUPTIONHISTORIC_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONHISTORIC_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32C25545-E3ED-2568-C4AF-228C61278EBE"/>
+<colUsage columnID="536CC25C-4F61-0596-653A-3E0A75FDC010"/>
+<colUsage columnID="3F9E7C18-71C1-BD93-2BA6-36B83D7CE87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9461761E-C49C-3629-2C2D-D3083EFB4D50" name="EHISTORIC_ECATEGORY_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9E7C18-71C1-BD93-2BA6-36B83D7CE87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B7CE8E9-3F28-92AA-EBF9-78DF64BC9093" name="EHISTORIC_VACTIVE_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="536CC25C-4F61-0596-653A-3E0A75FDC010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="254606CF-E97A-DDEB-0E47-E1B6A2EE165E" name="EHISTORIC_VCALDERA_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-16 00:48:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="536CC25C-4F61-0596-653A-3E0A75FDC010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
