@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ERUPTIONHISTORIC" directorySegmentName="seg_0" id="A450CE12-5145-A90E-8A6B-259AE41F999C">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>171E9AAC-2CB8-9201-EFCD-A41C72487B07</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VOLCANOIDENTIFIER" id="08B06E08-8E25-AA5F-B977-7F77599D98E4">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVIDENCE" id="0A67EF4B-B747-E51A-76B6-B02C501104F8">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CERTAINTY" id="153CA27E-EC6A-2F89-206B-937AB4C9C764">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERUPTIONIDENTIFIER" id="558E624D-B1ED-7B3C-2D3F-AFD897541A4E">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FINISHDATE" id="AC6F621B-4BF9-E592-ADE7-AA5C988978B0">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVITYAREA" id="CA6CF6F8-03A7-6479-08BD-4AE270520041">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STARTDATE" id="E73209E7-F577-88EF-7343-74D4792F3B90">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORYIDENTIFIER" id="FC0EFE49-263A-B0FE-F178-0135B9459ACF">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ERUPTIONHISTORIC_PK" id="5505D7FD-7E11-7D61-333E-592319C7E378">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EHISTORIC_VCALDERA_FK" id="711000E6-936B-F1D1-8871-0F0A23CD8A21">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EHISTORIC_ECATEGORY_FK" id="D544A61C-A8C5-0049-188A-A513AF34F7C9">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EHISTORIC_VACTIVE_FK" id="E8DF243D-1F17-444E-67EF-677C4B76C492">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ERUPTIONHISTORIC_PK" id="543D283D-968A-7ACF-B4E4-AA3F02074C6B">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<existingIndex>5505D7FD-7E11-7D61-333E-592319C7E378</existingIndex>
+<indexSegment>E5E17670-C2E6-88CA-0E0A-437C5172470B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

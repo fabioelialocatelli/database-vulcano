@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ERUPTIONPREHISTORIC" directorySegmentName="seg_0" id="66E82116-8D31-19F2-858E-E77451C7A3AD">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>171E9AAC-2CB8-9201-EFCD-A41C72487B07</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="YEARSBEFOREPRESENT" id="43799870-7F51-4DCB-79F1-5BC364E620FA">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLCANOIDENTIFIER" id="516E6C5E-978A-8AC5-69E4-3507F4385C6D">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVIDENCE" id="94429F05-4238-3FB4-B8D6-C51B300CCCA1">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ERUPTIONIDENTIFIER" id="F3BFC46E-2839-B34C-DD5E-645EEF284F23">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ERUPTIONPREHISTORIC_PK" id="55A5D9B2-A1A5-ED8F-92FF-AEF5C8EABACF">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EPREHISTORIC_VACTIVE_FK" id="1F3AA145-1896-6337-BA0C-51D373979156">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EPREHISTORIC_VCALDERA_FK" id="849AF736-1415-09ED-444F-6344C512FA5F">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EPREHISTORIC_VINACTIVE_FK" id="D2425591-1F8E-BC93-BA3F-99775686201D">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ERUPTIONPREHISTORIC_PK" id="D66CA1D4-BA88-5CDE-D069-504B38AE854C">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<existingIndex>55A5D9B2-A1A5-ED8F-92FF-AEF5C8EABACF</existingIndex>
+<indexSegment>E5E17670-C2E6-88CA-0E0A-437C5172470B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

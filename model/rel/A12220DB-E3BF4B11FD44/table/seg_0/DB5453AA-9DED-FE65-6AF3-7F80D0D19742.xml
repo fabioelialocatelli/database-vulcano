@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5453AA-9DED-FE65-6AF3-7F80D0D19742" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="HISTORYINACTIVE">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>HISTORYINACTIVE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPERATIONIDENTIFIER" id="5B4EE173-274C-6989-4AE8-4D5D2030248F">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>HISTORYINACTIVE</sourceObjSchema>
+<sourceObjName>OPERATIONIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERATIONTIME" id="46A113E9-035A-DC3D-EB03-5471EF7E3CE6">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>HISTORYINACTIVE</sourceObjSchema>
+<sourceObjName>OPERATIONTIME</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERATIONTYPE" id="18354FD1-B04F-7265-DF6C-5F2B30712687">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>HISTORYINACTIVE</sourceObjSchema>
+<sourceObjName>OPERATIONTYPE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALNAME" id="D8124C34-BF74-9409-EC6E-96ABE4D2F968">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>HISTORYINACTIVE</sourceObjSchema>
+<sourceObjName>LOCALNAME</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLCANOIDENTIFIER" id="D0D8FB71-AF4A-9AA7-943D-1D02A9391C1E">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>HISTORYINACTIVE</sourceObjSchema>
+<sourceObjName>VOLCANOIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="828B1FDD-02E3-E0E1-F181-CF9A67E25B43" referredColumn="EFC9D163-1419-D7D0-95FD-8F5261485190"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1596350F-5E62-F888-F36B-E0CADC14FEE3" name="HISTORYINACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>HISTORYINACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4EE173-274C-6989-4AE8-4D5D2030248F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F769CC16-7F70-8DC7-0215-3DC3EB2597D1" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="HISTORYINACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>HISTORYINACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4EE173-274C-6989-4AE8-4D5D2030248F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDF2ABE5-89D9-1053-BAD9-5BD8F0D4E62E" name="HACTIVE_VINACTIVE_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0D8FB71-AF4A-9AA7-943D-1D02A9391C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

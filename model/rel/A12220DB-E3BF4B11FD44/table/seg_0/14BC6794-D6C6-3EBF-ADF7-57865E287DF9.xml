@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14BC6794-D6C6-3EBF-ADF7-57865E287DF9" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="VOLCANOINACTIVE">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOINACTIVE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOLCANOIDENTIFIER" id="EFC9D163-1419-D7D0-95FD-8F5261485190">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>VOLCANOIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SMITHSONIANIDENTIFIER" id="689F3C53-596A-C991-2CFA-DD24C98949E9">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>SMITHSONIANIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALNAME" id="25DAC41B-F1C7-B6C0-2BD8-CA7CD56B022F">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>LOCALNAME</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="01E85827-A2A6-A335-B06B-53ACDD7C1318">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="EF02568B-965F-D0FF-A43B-09F91E156532">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUMMITELEVATIONMETRES" id="DEB59A04-1DE9-7B9C-9556-39E930F788AD">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>SUMMITELEVATIONMETRES</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREASQUAREKILOMETRES" id="50AFAD45-75E4-FDB6-9323-398A90ACC22C">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOINACTIVE</sourceObjSchema>
+<sourceObjName>AREASQUAREKILOMETRES</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06B51A05-8DB6-2F2D-804E-0624D07EE4CB" name="VOLCANOINACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOINACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC9D163-1419-D7D0-95FD-8F5261485190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C15A1A0A-C29A-68FC-8104-101AC122BAD6" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="VOLCANOINACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOINACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC9D163-1419-D7D0-95FD-8F5261485190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

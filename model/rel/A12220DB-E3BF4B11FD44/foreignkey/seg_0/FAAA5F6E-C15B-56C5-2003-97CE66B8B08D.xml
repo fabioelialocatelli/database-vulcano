@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAAA5F6E-C15B-56C5-2003-97CE66B8B08D" containerWithKeyObject="A450CE12-5145-A90E-8A6B-259AE41F999C" localFKIndex="D544A61C-A8C5-0049-188A-A513AF34F7C9" name="EHISTORIC_ECATEGORY_FK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>EHISTORIC_ECATEGORY_FK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>FABIO.ERUPTIONCATEGORY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3E75E55-5D24-8867-7557-54EAFE9ADB6F</referredTableID>
+<keyObject>41021AA7-40AF-DE4F-F607-9DAA79A39976</keyObject>
+<referredKeyID>41021AA7-40AF-DE4F-F607-9DAA79A39976</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATEGORYIDENTIFIER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

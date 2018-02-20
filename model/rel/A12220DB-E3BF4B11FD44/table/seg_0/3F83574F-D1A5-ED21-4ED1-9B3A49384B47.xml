@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F83574F-D1A5-ED21-4ED1-9B3A49384B47" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="VOLCANOACTIVE">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOACTIVE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOLCANOIDENTIFIER" id="A953CDFA-DFA0-39C3-2D59-583503DC824B">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>VOLCANOIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SMITHSONIANIDENTIFIER" id="43DDFAF6-5EB5-8095-5A7D-3B3958102A69">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>SMITHSONIANIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALNAME" id="8133FAA8-0806-C63A-EF9A-71F4B9AC7882">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>LOCALNAME</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="FC282046-84D0-0089-01F0-5ECF9DF419F5">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="EE97CEA7-DB78-4156-744D-7FBFA3F2A687">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAXIMUMVEI" id="D4FE253C-AB3A-68E7-8A78-E3AC24A64AC3">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>MAXIMUMVEI</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUMMITELEVATIONMETRES" id="15ECB7E2-699C-C705-6262-9DE1616F4AA0">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>SUMMITELEVATIONMETRES</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREASQUAREKILOMETRES" id="01F63472-DBA5-046D-CD2E-C62724B6ED3E">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>AREASQUAREKILOMETRES</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISDECADE" id="168F3BB3-1A80-376C-42BC-7D02E72351E1">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>VOLCANOACTIVE</sourceObjSchema>
+<sourceObjName>ISDECADE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86555935-5F8E-68C1-69B5-3A5F00318F95" name="VOLCANOACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A953CDFA-DFA0-39C3-2D59-583503DC824B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A6B56B-6D20-49E6-6CAA-014E5B4F55D0" schemaObject="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1" name="VOLCANOACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>VOLCANOACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A953CDFA-DFA0-39C3-2D59-583503DC824B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

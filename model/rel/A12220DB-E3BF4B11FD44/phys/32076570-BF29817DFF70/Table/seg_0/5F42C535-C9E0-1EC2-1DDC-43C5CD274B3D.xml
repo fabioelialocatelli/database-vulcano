@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMPOSITIONACTIVE" directorySegmentName="seg_0" id="5F42C535-C9E0-1EC2-1DDC-43C5CD274B3D">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>171E9AAC-2CB8-9201-EFCD-A41C72487B07</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATERIALOCCURRENCE" id="29C12F4F-A031-93A3-C667-635A017BD164">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLCANOIDENTIFIER" id="B52A2641-1CA9-6714-CC01-887044584276">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATERIALIDENTIFIER" id="D18A5C93-3B2F-B226-8FB8-587234B059DD">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMPOSITIONACTIVE_PK" id="E24972BC-DE09-46F1-729C-E6A2BD716BA5">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CACTIVE_MATERIAL_FK" id="14D0C452-1DFD-C425-88AF-605A7C5260B1">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CACTIVE_VACTIVE_FK" id="57D0686A-6A90-3EC0-67A7-3E9E9BEA4DA0">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPOSITIONACTIVE_PK" id="F3F913C1-07A8-B7AD-76A6-99490ECE97F8">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<existingIndex>E24972BC-DE09-46F1-729C-E6A2BD716BA5</existingIndex>
+<indexSegment>E5E17670-C2E6-88CA-0E0A-437C5172470B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

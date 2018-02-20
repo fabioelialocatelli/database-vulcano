@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VOLCANOINACTIVE" directorySegmentName="seg_0" id="14BC6794-D6C6-3EBF-ADF7-57865E287DF9">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>171E9AAC-2CB8-9201-EFCD-A41C72487B07</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LATITUDE" id="01E85827-A2A6-A335-B06B-53ACDD7C1318">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCALNAME" id="25DAC41B-F1C7-B6C0-2BD8-CA7CD56B022F">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREASQUAREKILOMETRES" id="50AFAD45-75E4-FDB6-9323-398A90ACC22C">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SMITHSONIANIDENTIFIER" id="689F3C53-596A-C991-2CFA-DD24C98949E9">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUMMITELEVATIONMETRES" id="DEB59A04-1DE9-7B9C-9556-39E930F788AD">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUDE" id="EF02568B-965F-D0FF-A43B-09F91E156532">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLCANOIDENTIFIER" id="EFC9D163-1419-D7D0-95FD-8F5261485190">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VOLCANOINACTIVE_PK" id="C15A1A0A-C29A-68FC-8104-101AC122BAD6">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VOLCANOINACTIVE_PK" id="06B51A05-8DB6-2F2D-804E-0624D07EE4CB">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<existingIndex>C15A1A0A-C29A-68FC-8104-101AC122BAD6</existingIndex>
+<indexSegment>E5E17670-C2E6-88CA-0E0A-437C5172470B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

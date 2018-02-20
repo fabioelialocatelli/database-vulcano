@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="HISTORYINACTIVE" directorySegmentName="seg_0" id="DB5453AA-9DED-FE65-6AF3-7F80D0D19742">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>171E9AAC-2CB8-9201-EFCD-A41C72487B07</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OPERATIONTYPE" id="18354FD1-B04F-7265-DF6C-5F2B30712687">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPERATIONTIME" id="46A113E9-035A-DC3D-EB03-5471EF7E3CE6">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPERATIONIDENTIFIER" id="5B4EE173-274C-6989-4AE8-4D5D2030248F">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLCANOIDENTIFIER" id="D0D8FB71-AF4A-9AA7-943D-1D02A9391C1E">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCALNAME" id="D8124C34-BF74-9409-EC6E-96ABE4D2F968">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HISTORYINACTIVE_PK" id="F769CC16-7F70-8DC7-0215-3DC3EB2597D1">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>AA6F77EF-7121-49EC-0C4F-6496F4C49BE1</schemaObject>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HACTIVE_VINACTIVE_FK" id="FDF2ABE5-89D9-1053-BAD9-5BD8F0D4E62E">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORYINACTIVE_PK" id="1596350F-5E62-F888-F36B-E0CADC14FEE3">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-20 03:07:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>E5E17670-C2E6-88CA-0E0A-437C5172470B</segment>
+<tableSpace>795F4CE9-CD0E-5F85-912F-1CBDA88A3289</tableSpace>
+<existingIndex>F769CC16-7F70-8DC7-0215-3DC3EB2597D1</existingIndex>
+<indexSegment>E5E17670-C2E6-88CA-0E0A-437C5172470B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
