@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="1553" height="1211">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="2411" height="1121">
 <defs id="dmw_defs" >
 <svg id="fk_sym" viewBox="0 0 48.665 48.665" style="enable-background:new 0 0 48.665 48.665;" >
 <g>
@@ -22,99 +22,123 @@
 <path fill="black" d="M660.224 422.656c6.976 16.192-0.512 35.008-16.768 42.048-16.128 6.976-34.944-0.448-41.984-16.768-8.448-19.776-20.736-37.696-36.224-53.248-64.64-64.64-177.344-64.64-241.92 0l-145.216 145.28c-66.688 66.688-66.688 175.232 0 241.984 66.688 66.688 175.104 66.752 241.92 0l92.8-92.864c12.48-12.48 32.768-12.48 45.248 0s12.48 32.768 0 45.248l-92.8 92.864c-91.648 91.648-240.832 91.52-332.416 0-91.712-91.648-91.712-240.832 0-332.48l145.216-145.28c44.352-44.416 103.424-68.864 166.272-68.864s121.792 24.448 166.208 68.864c21.248 21.312 38.016 45.952 49.664 73.216zM891.136 401.344l-145.216 145.216c-88.768 88.832-243.712 88.832-332.416 0-21.312-21.312-38.080-45.952-49.728-73.216-7.040-16.256 0.448-35.072 16.704-42.048 16.064-6.784 35.008 0.512 41.984 16.768 8.512 19.776 20.8 37.696 36.288 53.248 64.64 64.64 177.344 64.64 241.92 0l145.216-145.216c66.688-66.688 66.688-175.232 0-241.984-66.752-66.624-175.168-66.688-241.92 0l-92.8 92.864c-12.48 12.48-32.768 12.48-45.248 0s-12.48-32.768 0-45.248l92.8-92.864c45.824-45.824 105.984-68.736 166.208-68.736s120.448 22.912 166.272 68.736c91.584 91.648 91.584 240.768-0.064 332.48z" />
 </g>
 </svg>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath14_0_">
+<rect x="0" y="0" width="289" height="164" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath13_0_">
+<rect x="0" y="0" width="333" height="206" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath12_0_">
+<rect x="0" y="0" width="289" height="192" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath3_0_">
+<rect x="0" y="0" width="409" height="142" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath8_0_">
+<rect x="0" y="0" width="284" height="156" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath2_0_">
+<rect x="0" y="0" width="399" height="142" />
+</clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7_0_">
 <rect x="0" y="0" width="410" height="170" />
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath10_0_">
-<rect x="0" y="0" width="331" height="206" />
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath8_0_">
-<rect x="0" y="0" width="335" height="150" />
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath11_0_">
+<rect x="0" y="0" width="335" height="164" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4_0_">
 <rect x="0" y="0" width="409" height="142" />
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath2_0_">
-<rect x="0" y="0" width="399" height="128" />
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath9_0_">
-<rect x="0" y="0" width="289" height="192" />
-</clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5_0_">
 <rect x="0" y="0" width="290" height="122" />
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath11_0_">
-<rect x="0" y="0" width="305" height="164" />
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath3_0_">
-<rect x="0" y="0" width="409" height="128" />
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6_0_">
 <rect x="0" y="0" width="510" height="226" />
 </clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath9_0_">
+<rect x="0" y="0" width="284" height="156" />
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath10_0_">
+<rect x="0" y="0" width="284" height="156" />
+</clipPath>
 </defs>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1194 621 L1194 558" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1194 621 1191 615 1197 615" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M1200.0 558.0 L1194.0 570.0 L1188.0 558.0 M1198.0 573.0 L1190.0 579.0 M1198.0 579.0 L1190.0 573.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M2076 1005 L1614 1005" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="2076 1005 2070 1008 2070 1002" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1614.0 999.0 L1626.0 1005.0 L1614.0 1011.0 M1626.5999994277954 999.0 L1626.5999994277954 1011.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1200 943 L836 943" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1200 943 1194 946 1194 940" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M836.0 937.0 L848.0 943.0 L836.0 949.0 M848.5999994277954 937.0 L848.5999994277954 949.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1123 597 L1123 748" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1123 597 1126 603 1120 603" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1117.0 748.0 L1123.0 736.0 L1129.0 748.0 M1117.0 735.4000005722046 L1129.0 735.4000005722046" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M409 408 L409 250" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="409 408 406 402 412 402" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M415.0 250.0 L409.0 262.0 L403.0 250.0 M413.0 265.0 L405.0 271.0 M413.0 271.0 L405.0 265.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M913 127 L1100 127" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="913 127 919 124 919 130" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1100.0 133.0 L1088.0 127.0 L1100.0 121.0 M1087.4000005722046 133.0 L1087.4000005722046 121.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1367 922 L1367 213" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1367 922 1364 916 1370 916" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M1373.0 213.0 L1367.0 225.0 L1361.0 213.0 M1373.0 225.5999994277954 L1361.0 225.5999994277954" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M968 424 L499 424" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="968 424 962 427 962 421" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M499.0 418.0 L511.0 424.0 L499.0 430.0 M511.5999994277954 418.0 L511.5999994277954 430.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M186 666 L186 250" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="186 666 183 660 189 660" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M192.0 250.0 L186.0 262.0 L180.0 250.0 M190.0 265.0 L182.0 271.0 M190.0 271.0 L182.0 265.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M913 279 L1438 279" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="913 279 919 276 919 282" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1438.0 285.0 L1426.0 279.0 L1438.0 273.0 M1425.4000005722046 285.0 L1425.4000005722046 273.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M544 600 L544 837" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="544 600 547 606 541 606" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M538.0 837.0 L544.0 825.0 L550.0 837.0 M538.0 824.4000005722046 L550.0 824.4000005722046" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M418 907 L318 907" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="418 907 412 910 412 904" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M318.0 901.0 L330.0 907.0 L318.0 913.0 M330.5999994277954 901.0 L330.5999994277954 913.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M655 154 L455 154" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="655 154 649 157 649 151" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M455.0 148.0 L467.0 154.0 L455.0 160.0 M470.0 150.0 L476.0 158.0 M476.0 150.0 L470.0 158.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M2237 868 L2237 261" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="2237 868 2234 862 2240 862" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M2243.0 261.0 L2237.0 273.0 L2231.0 261.0 M2243.0 273.5999994277954 L2231.0 273.5999994277954" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M904 228 L904 332" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="904 228 907 234 901 234" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M898.0 332.0 L904.0 320.0 L910.0 332.0 M900.0 317.0 L908.0 311.0 M900.0 311.0 L908.0 317.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M707 993 L1205 993" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="707 993 713 990 713 996" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1205.0 999.0 L1193.0 993.0 L1205.0 987.0 M1192.4000005722046 999.0 L1192.4000005722046 987.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1200 1070 L521 1070" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1200 1070 1194 1073 1194 1067" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M521.0 1064.0 L533.0 1070.0 L521.0 1076.0 M533.5999994277954 1064.0 L533.5999994277954 1076.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M458 843 L458 443" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="458 843 455 837 461 837" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M464.0 443.0 L458.0 455.0 L452.0 443.0 M464.0 455.5999994277954 L452.0 455.5999994277954" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M652 483 L823 483" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="652 483 658 480 658 486" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d=" M823.0 489.0 L811.0 483.0 L823.0 477.0 M808.0 487.0 L802.0 479.0 M802.0 487.0 L808.0 479.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M580 284 L499 284" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="580 284 574 287 574 281" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M499.0 278.0 L511.0 284.0 L499.0 290.0 M511.5999994277954 278.0 L511.5999994277954 290.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M220 830 L220 1069" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="220 830 223 836 217 836" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M214.0 1069.0 L220.0 1057.0 L226.0 1069.0 M214.0 1056.4000005722046 L226.0 1056.4000005722046" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1257 447 L1438 447" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1257 447 1263 444 1263 450" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1438.0 453.0 L1426.0 447.0 L1438.0 441.0 M1425.4000005722046 453.0 L1425.4000005722046 441.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
 <g stroke-linecap="butt" >
-<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M986 149 L1144 149" />
-<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="986 149 992 146 992 152" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
-<path stroke-dasharray="none" d="M1144.0 155.0 L1132.0 149.0 L1144.0 143.0 M1131.4000005722046 155.0 L1131.4000005722046 143.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M913 190 L1989 190" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="913 190 919 187 919 193" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1989.0 196.0 L1977.0 190.0 L1989.0 184.0 M1976.4000005722046 196.0 L1976.4000005722046 184.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(437,837)" >
-<rect x="0" y="0" width="398" height="127" />
+<g stroke-linecap="butt" >
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M968 538 L833 538" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="968 538 962 541 962 535" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M833.0 532.0 L845.0 538.0 L833.0 544.0 M845.5999994277954 532.0 L845.5999994277954 544.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+</g>
+<g stroke-linecap="butt" >
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M2076 879 L1388 879" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="2076 879 2070 882 2070 876" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1388.0 873.0 L1400.0 879.0 L1388.0 885.0 M1400.5999994277954 873.0 L1400.5999994277954 885.0" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+</g>
+<g stroke-linecap="butt" >
+<path stroke="rgb(0,0,0)" fill="none" stroke-opacity="1.0"  stroke-width="1" d="M1733 685 L1733 490" />
+<polygon stroke="rgb(0,0,0)" stroke-dasharray="none" points="1733 685 1730 679 1736 679" fill="rgb(0,0,0)" stroke-width="1" stroke-opacity="1.0"  />
+<path stroke-dasharray="none" d="M1739.0 490.0 L1733.0 502.0 L1727.0 490.0 M1739.0 502.5999994277954 L1727.0 502.5999994277954" fill="none" stroke-width="1" stroke-opacity="1.0" stroke="rgb(0,0,0)" />
+</g>
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath2_0_)" transform="translate(989,748)" >
+<rect x="0" y="0" width="398" height="141" />
 <text id="FABIO.COMPOSITIONACTIVE" x="128" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.COMPOSITIONACTIVE
 </text>
@@ -143,30 +167,39 @@ VOLCANOIDENTIFIER
 <text x="156" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (3 CHAR)
 </text>
-<line x1="0" y1="52" x2="397" y2="52" fill="none" stroke="rgb(0,0,255)"/>
-<use xlink:href="#pk_sym" x="4" y="59" width="8" height="8" fill-opacity="1.0"/>
-<text x="16" y="66" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+MATERIALOCCURRENCE
+</text>
+<text x="156" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+NUMBER (*,0)
+</text>
+<line x1="0" y1="66" x2="397" y2="66" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="73" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="80" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 COMPOSITIONACTIVE_PK (MATERIALIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
-<line x1="0" y1="72" x2="397" y2="72" fill="none" stroke="rgb(0,0,255)"/>
-<use xlink:href="#fk_sym" x="4" y="79" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.MATERIAL" >
-<text x="16" y="86" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<line x1="0" y1="86" x2="397" y2="86" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#fk_sym" x="4" y="93" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.MATERIAL" >
+<text x="16" y="100" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CACTIVE_MATERIAL_FK (MATERIALIDENTIFIER)
 </text></a>
-<use xlink:href="#fk_sym" x="4" y="93" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOACTIVE" >
-<text x="16" y="100" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<use xlink:href="#fk_sym" x="4" y="107" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOACTIVE" >
+<text x="16" y="114" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CACTIVE_VACTIVE_FK (VOLCANOIDENTIFIER)
 </text></a>
-<line x1="0" y1="106" x2="397" y2="106" fill="none" stroke="rgb(0,0,255)"/>
-<text x="2" y="120" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<line x1="0" y1="120" x2="397" y2="120" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="134" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 U
 </text>
-<text x="16" y="120" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="134" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 COMPOSITIONACTIVE_PK (MATERIALIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(1144,85)" >
-<rect x="0" y="0" width="408" height="127" />
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath3_0_)" transform="translate(1989,119)" >
+<rect x="0" y="0" width="408" height="141" />
 <text id="FABIO.COMPOSITIONCALDERA" x="127" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.COMPOSITIONCALDERA
 </text>
@@ -195,29 +228,38 @@ VOLCANOIDENTIFIER
 <text x="156" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (3 CHAR)
 </text>
-<line x1="0" y1="52" x2="407" y2="52" fill="none" stroke="rgb(0,0,255)"/>
-<use xlink:href="#pk_sym" x="4" y="59" width="8" height="8" fill-opacity="1.0"/>
-<text x="16" y="66" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+MATERIALOCCURRENCE
+</text>
+<text x="156" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+NUMBER (*,0)
+</text>
+<line x1="0" y1="66" x2="407" y2="66" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="73" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="80" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 COMPOSITIONCALDERA_PK (MATERIALIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
-<line x1="0" y1="72" x2="407" y2="72" fill="none" stroke="rgb(0,0,255)"/>
-<use xlink:href="#fk_sym" x="4" y="79" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.MATERIAL" >
-<text x="16" y="86" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<line x1="0" y1="86" x2="407" y2="86" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#fk_sym" x="4" y="93" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.MATERIAL" >
+<text x="16" y="100" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CCALDERA_MATERIAL_FK (MATERIALIDENTIFIER)
 </text></a>
-<use xlink:href="#fk_sym" x="4" y="93" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOCALDERA" >
-<text x="16" y="100" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<use xlink:href="#fk_sym" x="4" y="107" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOCALDERA" >
+<text x="16" y="114" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CCALDERA_VCALDERA_FK (VOLCANOIDENTIFIER)
 </text></a>
-<line x1="0" y1="106" x2="407" y2="106" fill="none" stroke="rgb(0,0,255)"/>
-<text x="2" y="120" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<line x1="0" y1="120" x2="407" y2="120" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="134" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 U
 </text>
-<text x="16" y="120" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="134" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 COMPOSITIONCALDERA_PK (MATERIALIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(112,1069)" >
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath4_0_)" transform="translate(1205,979)" >
 <rect x="0" y="0" width="408" height="141" />
 <text id="FABIO.COMPOSITIONINACTIVE" x="128" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.COMPOSITIONINACTIVE
@@ -251,7 +293,7 @@ VARCHAR2 (3 CHAR)
 
 </text>
 <text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-OCCURRENCE
+MATERIALOCCURRENCE
 </text>
 <text x="156" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
@@ -278,7 +320,7 @@ U
 COMPOSITIONINACTIVE_PK (MATERIALIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(1055,621)" >
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath5_0_)" transform="translate(1588,685)" >
 <rect x="0" y="0" width="289" height="121" />
 <text id="FABIO.ERUPTIONCATEGORY" x="74" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.ERUPTIONCATEGORY
@@ -300,7 +342,7 @@ VARCHAR2 (4 CHAR)
 
 </text>
 <text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-COMMONNAME
+SCIENTIFICNAME
 </text>
 <text x="161" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (15 CHAR)
@@ -336,7 +378,7 @@ U
 ERUPTIONCATEGORY_PK (CATEGORYIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(823,332)" >
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath6_0_)" transform="translate(1438,264)" >
 <rect x="0" y="0" width="509" height="225" />
 <text id="FABIO.ERUPTIONHISTORIC" x="189" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.ERUPTIONHISTORIC
@@ -449,7 +491,7 @@ U
 ERUPTIONHISTORIC_PK (ERUPTIONIDENTIFIER, VOLCANOIDENTIFIER, CATEGORYIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(45,80)" >
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath7_0_)" transform="translate(89,273)" >
 <rect x="0" y="0" width="409" height="169" />
 <text id="FABIO.ERUPTIONPREHISTORIC" x="128" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.ERUPTIONPREHISTORIC
@@ -523,8 +565,233 @@ U
 ERUPTIONPREHISTORIC_PK (ERUPTIONIDENTIFIER, VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(1200,922)" >
-<rect x="0" y="0" width="334" height="149" />
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath8_0_)" transform="translate(549,480)" >
+<rect x="0" y="0" width="283" height="155" />
+<text id="FABIO.HISTORYACTIVE" x="85" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+FABIO.HISTORYACTIVE
+</text>
+<line x1="0" y1="18" x2="282" y2="18" fill="none" stroke="rgb(0,0,255)"/>
+<text x="16" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="32" fill="rgb(0,0,255)" fill-opacity="1.0" font-size="10" stroke="none">
+P
+</text>
+<text x="26" y="32" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONIDENTIFIER
+</text>
+<text x="164" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (25 CHAR)
+</text>
+<text x="16" y="46" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTIME
+</text>
+<text x="164" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+TIMESTAMP
+</text>
+<text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTYPE
+</text>
+<text x="164" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (15 CHAR)
+</text>
+<text x="16" y="74" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="74" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+LOCALNAME
+</text>
+<text x="164" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+NVARCHAR2 (45)
+</text>
+<text x="16" y="88" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+F
+</text>
+<text x="26" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VOLCANOIDENTIFIER
+</text>
+<text x="164" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (3 CHAR)
+</text>
+<line x1="0" y1="94" x2="282" y2="94" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="101" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="108" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYACTIVE_PK (OPERATIONIDENTIFIER)
+</text>
+<line x1="0" y1="114" x2="282" y2="114" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#fk_sym" x="4" y="121" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOACTIVE" >
+<text x="16" y="128" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HACTIVE_VACTIVE_FK (VOLCANOIDENTIFIER)
+</text></a>
+<line x1="0" y1="134" x2="282" y2="134" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+U
+</text>
+<text x="16" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYACTIVE_PK (OPERATIONIDENTIFIER)
+</text>
+</g>
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(1100,9)" >
+<rect x="0" y="0" width="283" height="155" />
+<text id="FABIO.HISTORYCALDERA" x="79" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+FABIO.HISTORYCALDERA
+</text>
+<line x1="0" y1="18" x2="282" y2="18" fill="none" stroke="rgb(0,0,255)"/>
+<text x="16" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="32" fill="rgb(0,0,255)" fill-opacity="1.0" font-size="10" stroke="none">
+P
+</text>
+<text x="26" y="32" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONIDENTIFIER
+</text>
+<text x="164" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (25 CHAR)
+</text>
+<text x="16" y="46" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTIME
+</text>
+<text x="164" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+TIMESTAMP
+</text>
+<text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTYPE
+</text>
+<text x="164" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (15 CHAR)
+</text>
+<text x="16" y="74" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="74" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+LOCALNAME
+</text>
+<text x="164" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+NVARCHAR2 (45)
+</text>
+<text x="16" y="88" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+F
+</text>
+<text x="26" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VOLCANOIDENTIFIER
+</text>
+<text x="164" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (3 CHAR)
+</text>
+<line x1="0" y1="94" x2="282" y2="94" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="101" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="108" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYCALDERA_PK (OPERATIONIDENTIFIER)
+</text>
+<line x1="0" y1="114" x2="282" y2="114" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#fk_sym" x="4" y="121" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOCALDERA" >
+<text x="16" y="128" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HACTIVE_VCALDERA_FK (VOLCANOIDENTIFIER)
+</text></a>
+<line x1="0" y1="134" x2="282" y2="134" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+U
+</text>
+<text x="16" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYCALDERA_PK (OPERATIONIDENTIFIER)
+</text>
+</g>
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(34,815)" >
+<rect x="0" y="0" width="283" height="155" />
+<text id="FABIO.HISTORYINACTIVE" x="80" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+FABIO.HISTORYINACTIVE
+</text>
+<line x1="0" y1="18" x2="282" y2="18" fill="none" stroke="rgb(0,0,255)"/>
+<text x="16" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="32" fill="rgb(0,0,255)" fill-opacity="1.0" font-size="10" stroke="none">
+P
+</text>
+<text x="26" y="32" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONIDENTIFIER
+</text>
+<text x="164" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (25 CHAR)
+</text>
+<text x="16" y="46" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTIME
+</text>
+<text x="164" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+TIMESTAMP
+</text>
+<text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+OPERATIONTYPE
+</text>
+<text x="164" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (15 CHAR)
+</text>
+<text x="16" y="74" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="74" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+LOCALNAME
+</text>
+<text x="164" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+NVARCHAR2 (45)
+</text>
+<text x="16" y="88" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+*
+</text>
+<text x="2" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+F
+</text>
+<text x="26" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VOLCANOIDENTIFIER
+</text>
+<text x="164" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+VARCHAR2 (3 CHAR)
+</text>
+<line x1="0" y1="94" x2="282" y2="94" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="101" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="108" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYINACTIVE_PK (OPERATIONIDENTIFIER)
+</text>
+<line x1="0" y1="114" x2="282" y2="114" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#fk_sym" x="4" y="121" width="8" height="8" fill-opacity="1.0"/><a xlink:href="#FABIO.VOLCANOINACTIVE" >
+<text x="16" y="128" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HACTIVE_VINACTIVE_FK (VOLCANOIDENTIFIER)
+</text></a>
+<line x1="0" y1="134" x2="282" y2="134" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+U
+</text>
+<text x="16" y="148" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+HISTORYINACTIVE_PK (OPERATIONIDENTIFIER)
+</text>
+</g>
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath11_0_)" transform="translate(2076,868)" >
+<rect x="0" y="0" width="334" height="163" />
 <text id="FABIO.MATERIAL" x="125" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.MATERIAL
 </text>
@@ -545,7 +812,7 @@ VARCHAR2 (3 CHAR)
 
 </text>
 <text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-COMMONNAME
+SCIENTIFICNAME
 </text>
 <text x="215" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (15 CHAR)
@@ -586,20 +853,29 @@ ISMAFIC
 <text x="215" y="102" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CHAR (1 BYTE)
 </text>
-<line x1="0" y1="108" x2="333" y2="108" fill="none" stroke="rgb(0,0,255)"/>
-<use xlink:href="#pk_sym" x="4" y="115" width="8" height="8" fill-opacity="1.0"/>
-<text x="16" y="122" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="116" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+
+</text>
+<text x="26" y="116" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+ISSILICIC
+</text>
+<text x="215" y="116" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+CHAR (1 BYTE)
+</text>
+<line x1="0" y1="122" x2="333" y2="122" fill="none" stroke="rgb(0,0,255)"/>
+<use xlink:href="#pk_sym" x="4" y="129" width="8" height="8" fill-opacity="1.0"/>
+<text x="16" y="136" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 MATERIAL_PK (MATERIALIDENTIFIER)
 </text>
-<line x1="0" y1="128" x2="333" y2="128" fill="none" stroke="rgb(0,0,255)"/>
-<text x="2" y="142" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<line x1="0" y1="142" x2="333" y2="142" fill="none" stroke="rgb(0,0,255)"/>
+<text x="2" y="156" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 U
 </text>
-<text x="16" y="142" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="16" y="156" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 MATERIAL_PK (MATERIALIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath9_0_)" transform="translate(363,408)" >
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath12_0_)" transform="translate(968,405)" >
 <rect x="0" y="0" width="288" height="191" />
 <text id="FABIO.VOLCANOACTIVE" x="84" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.VOLCANOACTIVE
@@ -702,12 +978,12 @@ U
 VOLCANOACTIVE_PK (VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath10_0_)" transform="translate(655,22)" >
-<rect x="0" y="0" width="330" height="205" />
-<text id="FABIO.VOLCANOCALDERA" x="99" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath13_0_)" transform="translate(580,89)" >
+<rect x="0" y="0" width="332" height="205" />
+<text id="FABIO.VOLCANOCALDERA" x="100" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.VOLCANOCALDERA
 </text>
-<line x1="0" y1="18" x2="329" y2="18" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="18" x2="331" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="16" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 *
 </text>
@@ -717,16 +993,16 @@ P
 <text x="26" y="32" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VOLCANOIDENTIFIER
 </text>
-<text x="217" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (3 CHAR)
 </text>
 <text x="16" y="46" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 
 </text>
 <text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-SMITHSONIANREFERENCE
+SMITHSONIANIDENTIFIER
 </text>
-<text x="217" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -735,7 +1011,7 @@ NUMBER (*,0)
 <text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LOCALNAME
 </text>
-<text x="217" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NVARCHAR2 (45)
 </text>
 <text x="16" y="74" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -744,7 +1020,7 @@ NVARCHAR2 (45)
 <text x="26" y="74" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LATITUDE
 </text>
-<text x="217" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
 <text x="16" y="88" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -753,7 +1029,7 @@ FLOAT (5)
 <text x="26" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LONGITUDE
 </text>
-<text x="217" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
 <text x="16" y="102" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -762,7 +1038,7 @@ FLOAT (5)
 <text x="26" y="102" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 MAXIMUMVEI
 </text>
-<text x="217" y="102" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="102" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="116" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -771,16 +1047,16 @@ NUMBER (*,0)
 <text x="26" y="116" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 MAXIMUMELEVATIONMETRES
 </text>
-<text x="217" y="116" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="116" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="130" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 
 </text>
 <text x="26" y="130" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-MAXIMUMDISTANCEKILOMETRES
+MAXIMUMDIAMETERKILOMETRES
 </text>
-<text x="217" y="130" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="130" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="144" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -789,7 +1065,7 @@ NUMBER (*,0)
 <text x="26" y="144" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 DEPOSITSCUBICKILOMETERS
 </text>
-<text x="217" y="144" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="144" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
 <text x="16" y="158" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -798,15 +1074,15 @@ FLOAT (5)
 <text x="26" y="158" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 ISDECADE
 </text>
-<text x="217" y="158" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="219" y="158" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 CHAR (1 BYTE)
 </text>
-<line x1="0" y1="164" x2="329" y2="164" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="164" x2="331" y2="164" fill="none" stroke="rgb(0,0,255)"/>
 <use xlink:href="#pk_sym" x="4" y="171" width="8" height="8" fill-opacity="1.0"/>
 <text x="16" y="178" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VOLCANOCALDERA_PK (VOLCANOIDENTIFIER)
 </text>
-<line x1="0" y1="184" x2="329" y2="184" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="184" x2="331" y2="184" fill="none" stroke="rgb(0,0,255)"/>
 <text x="2" y="198" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 U
 </text>
@@ -814,12 +1090,12 @@ U
 VOLCANOCALDERA_PK (VOLCANOIDENTIFIER)
 </text>
 </g>
-<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath11_0_)" transform="translate(23,666)" >
-<rect x="0" y="0" width="304" height="163" />
-<text id="FABIO.VOLCANOINACTIVE" x="87" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
+<g  fill="rgb(255,255,180)" stroke="rgb(0,0,255)" fill-opacity="1.0" stroke-opacity="1.0" clip-path="url(#clipPath14_0_)" transform="translate(418,843)" >
+<rect x="0" y="0" width="288" height="163" />
+<text id="FABIO.VOLCANOINACTIVE" x="79" y="14" fill="rgb(0,0,255)" font-weight="bold"  fill-opacity="1.0" font-size="10" stroke="none">
 FABIO.VOLCANOINACTIVE
 </text>
-<line x1="0" y1="18" x2="303" y2="18" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="18" x2="287" y2="18" fill="none" stroke="rgb(0,0,255)"/>
 <text x="16" y="32" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 *
 </text>
@@ -829,16 +1105,16 @@ P
 <text x="26" y="32" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VOLCANOIDENTIFIER
 </text>
-<text x="191" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="32" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VARCHAR2 (3 CHAR)
 </text>
 <text x="16" y="46" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 
 </text>
 <text x="26" y="46" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
-SMITHSONIANREFERENCE
+SMITHSONIANIDENTIFIER
 </text>
-<text x="191" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="46" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="60" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -847,7 +1123,7 @@ NUMBER (*,0)
 <text x="26" y="60" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LOCALNAME
 </text>
-<text x="191" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="60" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NVARCHAR2 (45)
 </text>
 <text x="16" y="74" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -856,7 +1132,7 @@ NVARCHAR2 (45)
 <text x="26" y="74" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LATITUDE
 </text>
-<text x="191" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="74" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
 <text x="16" y="88" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -865,7 +1141,7 @@ FLOAT (5)
 <text x="26" y="88" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 LONGITUDE
 </text>
-<text x="191" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="88" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
 <text x="16" y="102" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -874,7 +1150,7 @@ FLOAT (5)
 <text x="26" y="102" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 SUMMITELEVATIONMETRES
 </text>
-<text x="191" y="102" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="102" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 NUMBER (*,0)
 </text>
 <text x="16" y="116" fill="rgb(255,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
@@ -883,15 +1159,15 @@ NUMBER (*,0)
 <text x="26" y="116" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 AREASQUAREKILOMETRES
 </text>
-<text x="191" y="116" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
+<text x="175" y="116" fill="rgb(0,128,0)" fill-opacity="1.0" font-size="10" stroke="none">
 FLOAT (5)
 </text>
-<line x1="0" y1="122" x2="303" y2="122" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="122" x2="287" y2="122" fill="none" stroke="rgb(0,0,255)"/>
 <use xlink:href="#pk_sym" x="4" y="129" width="8" height="8" fill-opacity="1.0"/>
 <text x="16" y="136" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 VOLCANOINACTIVE_PK (VOLCANOIDENTIFIER)
 </text>
-<line x1="0" y1="142" x2="303" y2="142" fill="none" stroke="rgb(0,0,255)"/>
+<line x1="0" y1="142" x2="287" y2="142" fill="none" stroke="rgb(0,0,255)"/>
 <text x="2" y="156" fill="rgb(0,0,0)" fill-opacity="1.0" font-size="10" stroke="none">
 U
 </text>

@@ -1,185 +1,204 @@
-DROP TABLE compositionactive CASCADE CONSTRAINTS PURGE;
-
-CREATE TABLE compositionactive (
-    materialidentifier   VARCHAR2(3 CHAR) NOT NULL,
-    volcanoidentifier    VARCHAR2(3 CHAR) NOT NULL
+DROP TABLE material CASCADE CONSTRAINTS PURGE;
+CREATE TABLE material (
+    materialIdentifier         VARCHAR2(3 CHAR) NOT NULL,
+    scientificName             VARCHAR2(15 CHAR),
+    alkalicontentpercentage    NUMBER(3,1),
+    silicacontentpercentage    NUMBER(3,1),
+    crystalcontentpercentage   NUMBER(3,1),
+    isMafic                    CHAR(1),
+    isSilicic                  CHAR(1)
 );
+ALTER TABLE material ADD CONSTRAINT material_PK PRIMARY KEY ( materialIdentifier );
 
-ALTER TABLE compositionactive ADD CONSTRAINT compositionactive_pk PRIMARY KEY ( materialidentifier,
-volcanoidentifier );
-
-DROP TABLE compositioncaldera CASCADE CONSTRAINTS PURGE;
-
-CREATE TABLE compositioncaldera (
-    materialidentifier   VARCHAR2(3 CHAR) NOT NULL,
-    volcanoidentifier    VARCHAR2(3 CHAR) NOT NULL
+DROP TABLE compositionActive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE compositionActive (
+    materialIdentifier   VARCHAR2(3 CHAR) NOT NULL,
+    volcanoIdentifier    VARCHAR2(3 CHAR) NOT NULL,
+    materialOccurrence   INTEGER
 );
+ALTER TABLE compositionActive ADD CONSTRAINT compositionActive_PK PRIMARY KEY ( materialIdentifier,
+volcanoIdentifier );
 
-ALTER TABLE compositioncaldera ADD CONSTRAINT compositioncaldera_pk PRIMARY KEY ( materialidentifier,
-volcanoidentifier );
-
-DROP TABLE compositioninactive CASCADE CONSTRAINTS PURGE;
-
-CREATE TABLE compositioninactive (
-    materialidentifier   VARCHAR2(3 CHAR) NOT NULL,
-    volcanoidentifier    VARCHAR2(3 CHAR) NOT NULL,
-    occurrence           INTEGER
+DROP TABLE compositionCaldera CASCADE CONSTRAINTS PURGE;
+CREATE TABLE compositionCaldera (
+    materialIdentifier   VARCHAR2(3 CHAR) NOT NULL,
+    volcanoIdentifier    VARCHAR2(3 CHAR) NOT NULL,
+    materialOccurrence   INTEGER
 );
+ALTER TABLE compositionCaldera ADD CONSTRAINT compositionCaldera_PK PRIMARY KEY ( materialIdentifier,
+volcanoIdentifier );
 
-ALTER TABLE compositioninactive ADD CONSTRAINT compositioninactive_pk PRIMARY KEY ( materialidentifier,
-volcanoidentifier );
+DROP TABLE compositionInactive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE compositionInactive (
+    materialIdentifier   VARCHAR2(3 CHAR) NOT NULL,
+    volcanoIdentifier    VARCHAR2(3 CHAR) NOT NULL,
+    materialOccurrence   INTEGER
+);
+ALTER TABLE compositionInactive ADD CONSTRAINT compositionInactive_PK PRIMARY KEY ( materialIdentifier,
+volcanoIdentifier );
 
 DROP TABLE eruptionCategory CASCADE CONSTRAINTS PURGE;
-
-CREATE TABLE eruptioncategory (
-    categoryidentifier   VARCHAR2(4 CHAR) NOT NULL,
-    commonname           VARCHAR2(15 CHAR),
+CREATE TABLE eruptionCategory (
+    categoryIdentifier   VARCHAR2(4 CHAR) NOT NULL,
+    scientificName       VARCHAR2(15 CHAR),
     descriptor           VARCHAR2(15 CHAR),
-    maximumvei           INTEGER
+    maximumVEI           INTEGER
 );
+ALTER TABLE eruptionCategory ADD CONSTRAINT eruptionCategory_PK PRIMARY KEY ( categoryIdentifier );
 
-ALTER TABLE eruptioncategory ADD CONSTRAINT eruptioncategory_pk PRIMARY KEY ( categoryidentifier );
-
-DROP TABLE eruptionhistoric CASCADE CONSTRAINTS PURGE;
-
-CREATE TABLE eruptionhistoric (
-    eruptionidentifier   VARCHAR2(3 CHAR) NOT NULL,
-    volcanoidentifier    VARCHAR2(3 CHAR) NOT NULL,
-    categoryidentifier   VARCHAR2(4 CHAR) NOT NULL,
+DROP TABLE eruptionHistoric CASCADE CONSTRAINTS PURGE;
+CREATE TABLE eruptionHistoric (
+    eruptionIdentifier   VARCHAR2(3 CHAR) NOT NULL,
+    volcanoIdentifier    VARCHAR2(3 CHAR) NOT NULL,
+    categoryIdentifier   VARCHAR2(4 CHAR) NOT NULL,
     startdate            DATE,
     finishdate           DATE,
     certainty            NVARCHAR2(15),
     evidence             NVARCHAR2(15),
     activityarea         NVARCHAR2(15)
 );
+ALTER TABLE eruptionHistoric
+    ADD CONSTRAINT eruptionHistoric_PK PRIMARY KEY ( eruptionIdentifier,
+    volcanoIdentifier,
+    categoryIdentifier );
 
-ALTER TABLE eruptionhistoric
-    ADD CONSTRAINT eruptionhistoric_pk PRIMARY KEY ( eruptionidentifier,
-    volcanoidentifier,
-    categoryidentifier );
-    
-DROP TABLE eruptionprehistoric CASCADE CONSTRAINTS PURGE;    
-
-CREATE TABLE eruptionprehistoric (
-    eruptionidentifier   VARCHAR2(3 CHAR) NOT NULL,
-    volcanoidentifier    VARCHAR2(3 CHAR) NOT NULL,
+DROP TABLE eruptionPrehistoric CASCADE CONSTRAINTS PURGE;
+CREATE TABLE eruptionPrehistoric (
+    eruptionIdentifier   VARCHAR2(3 CHAR) NOT NULL,
+    volcanoIdentifier    VARCHAR2(3 CHAR) NOT NULL,
     yearsbeforepresent   INTEGER,
     evidence             NVARCHAR2(15)
 );
+ALTER TABLE eruptionPrehistoric ADD CONSTRAINT eruptionPrehistoric_PK PRIMARY KEY ( eruptionIdentifier,
+volcanoIdentifier );
 
-ALTER TABLE eruptionprehistoric ADD CONSTRAINT eruptionprehistoric_pk PRIMARY KEY ( eruptionidentifier,
-volcanoidentifier );
-
-DROP TABLE material CASCADE CONSTRAINTS PURGE;  
-
-CREATE TABLE material (
-    materialidentifier         VARCHAR2(3 CHAR) NOT NULL,
-    commonname                 VARCHAR2(15 CHAR),
-    alkalicontentpercentage    NUMBER(3,1),
-    silicacontentpercentage    NUMBER(3,1),
-    crystalcontentpercentage   NUMBER(3,1),
-    ismafic                    CHAR(1)
-);
-
-ALTER TABLE material ADD CONSTRAINT material_pk PRIMARY KEY ( materialidentifier );
-
-DROP TABLE volcanoactive CASCADE CONSTRAINTS PURGE;  
-
-CREATE TABLE volcanoactive (
-    volcanoidentifier       VARCHAR2(3 CHAR) NOT NULL,
-    smithsonianidentifier   INTEGER,
-    localname               NVARCHAR2(45),
+DROP TABLE volcanoActive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE volcanoActive (
+    volcanoIdentifier       VARCHAR2(3 CHAR) NOT NULL,
+    smithsonianIdentifier   INTEGER,
+    localName               NVARCHAR2(45),
     latitude                FLOAT(5),
     longitude               FLOAT(5),
-    maximumvei              INTEGER,
-    summitelevationmetres   INTEGER,
-    areasquarekilometres    FLOAT(5),
-    isdecade                CHAR(1)
+    maximumVEI              INTEGER,
+    summitElevationMetres   INTEGER,
+    areaSquareKilometres    FLOAT(5),
+    isDecade                CHAR(1)
 );
+ALTER TABLE volcanoActive ADD CONSTRAINT volcanoActive_PK PRIMARY KEY ( volcanoIdentifier );
 
-ALTER TABLE volcanoactive ADD CONSTRAINT volcanoactive_pk PRIMARY KEY ( volcanoidentifier );
-
-DROP TABLE volcanocaldera CASCADE CONSTRAINTS PURGE;  
-
-CREATE TABLE volcanocaldera (
-    volcanoidentifier           VARCHAR2(3 CHAR) NOT NULL,
-    smithsonianreference        INTEGER,
-    localname                   NVARCHAR2(45),
+DROP TABLE volcanoCaldera CASCADE CONSTRAINTS PURGE;
+CREATE TABLE volcanoCaldera (
+    volcanoIdentifier           VARCHAR2(3 CHAR) NOT NULL,
+    smithsonianIdentifier       INTEGER,
+    localName                   NVARCHAR2(45),
     latitude                    FLOAT(5),
     longitude                   FLOAT(5),
-    maximumvei                  INTEGER,
-    maximumelevationmetres      INTEGER,
-    maximumdistancekilometres   INTEGER,
-    depositscubickilometers     FLOAT(5),
-    isdecade                    CHAR(1)
+    maximumVEI                  INTEGER,
+    maximumElevationMetres      INTEGER,
+    maximumDiameterKilometres   INTEGER,
+    depositsCubicKilometers     FLOAT(5),
+    isDecade                    CHAR(1)
 );
+ALTER TABLE volcanoCaldera ADD CONSTRAINT volcanoCaldera_PK PRIMARY KEY ( volcanoIdentifier );
 
-ALTER TABLE volcanocaldera ADD CONSTRAINT volcanocaldera_pk PRIMARY KEY ( volcanoidentifier );
-
-DROP TABLE volcanoinactive CASCADE CONSTRAINTS PURGE; 
-
-CREATE TABLE volcanoinactive (
-    volcanoidentifier       VARCHAR2(3 CHAR) NOT NULL,
-    smithsonianreference    INTEGER,
-    localname               NVARCHAR2(45),
+DROP TABLE volcanoInactive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE volcanoInactive (
+    volcanoIdentifier       VARCHAR2(3 CHAR) NOT NULL,
+    smithsonianIdentifier   INTEGER,
+    localName               NVARCHAR2(45),
     latitude                FLOAT(5),
     longitude               FLOAT(5),
-    summitelevationmetres   INTEGER,
-    areasquarekilometres    FLOAT(5)
+    summitElevationMetres   INTEGER,
+    areaSquareKilometres    FLOAT(5)
 );
+ALTER TABLE volcanoInactive ADD CONSTRAINT volcanoInactive_PK PRIMARY KEY ( volcanoIdentifier );
 
-ALTER TABLE volcanoinactive ADD CONSTRAINT volcanoinactive_pk PRIMARY KEY ( volcanoidentifier );
+DROP TABLE historyActive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE historyActive (
+    operationIdentifier   VARCHAR2(25 CHAR) NOT NULL,
+    operationTime         TIMESTAMP,
+    operationType         VARCHAR2(15 CHAR),
+    localName             NVARCHAR2(45),
+    volcanoIdentifier     VARCHAR2(3 CHAR) NOT NULL
+);
+ALTER TABLE historyActive ADD CONSTRAINT historyActive_PK PRIMARY KEY ( operationIdentifier );
 
-ALTER TABLE compositionactive
-    ADD CONSTRAINT cactive_material_fk FOREIGN KEY ( materialidentifier )
-        REFERENCES material ( materialidentifier );
+DROP TABLE historyCaldera CASCADE CONSTRAINTS PURGE;
+CREATE TABLE historyCaldera (
+    operationIdentifier   VARCHAR2(25 CHAR) NOT NULL,
+    operationTime         TIMESTAMP,
+    operationType         VARCHAR2(15 CHAR),
+    localName             NVARCHAR2(45),
+    volcanoIdentifier     VARCHAR2(3 CHAR) NOT NULL
+);
+ALTER TABLE historyCaldera ADD CONSTRAINT historyCaldera_PK PRIMARY KEY ( operationIdentifier );
 
-ALTER TABLE compositionactive
-    ADD CONSTRAINT cactive_vactive_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanoactive ( volcanoidentifier );
+DROP TABLE historyInactive CASCADE CONSTRAINTS PURGE;
+CREATE TABLE historyInactive (
+    operationIdentifier   VARCHAR2(25 CHAR) NOT NULL,
+    operationTime         TIMESTAMP,
+    operationType         VARCHAR2(15 CHAR),
+    localName             NVARCHAR2(45),
+    volcanoIdentifier     VARCHAR2(3 CHAR) NOT NULL
+);
+ALTER TABLE historyInactive ADD CONSTRAINT historyInactive_PK PRIMARY KEY ( operationIdentifier );
 
-ALTER TABLE compositioncaldera
-    ADD CONSTRAINT ccaldera_material_fk FOREIGN KEY ( materialidentifier )
-        REFERENCES material ( materialidentifier );
+ALTER TABLE compositionActive
+    ADD CONSTRAINT cActive_material_FK FOREIGN KEY ( materialIdentifier )
+        REFERENCES material ( materialIdentifier );
 
-ALTER TABLE compositioncaldera
-    ADD CONSTRAINT ccaldera_vcaldera_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanocaldera ( volcanoidentifier );
+ALTER TABLE compositionActive
+    ADD CONSTRAINT cActive_vActive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoActive ( volcanoIdentifier );
 
-ALTER TABLE compositioninactive
-    ADD CONSTRAINT cinactive_material_fk FOREIGN KEY ( materialidentifier )
-        REFERENCES material ( materialidentifier );
+ALTER TABLE compositionCaldera
+    ADD CONSTRAINT cCaldera_material_FK FOREIGN KEY ( materialIdentifier )
+        REFERENCES material ( materialIdentifier );
 
-ALTER TABLE compositioninactive
-    ADD CONSTRAINT cinactive_vinactive_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanoinactive ( volcanoidentifier );
+ALTER TABLE compositionCaldera
+    ADD CONSTRAINT cCaldera_vCaldera_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoCaldera ( volcanoIdentifier );
 
-ALTER TABLE eruptionhistoric
-    ADD CONSTRAINT ehistoric_ecategory_fk FOREIGN KEY ( categoryidentifier )
-        REFERENCES eruptioncategory ( categoryidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE compositionInactive
+    ADD CONSTRAINT cInactive_material_FK FOREIGN KEY ( materialIdentifier )
+        REFERENCES material ( materialIdentifier );
 
-ALTER TABLE eruptionhistoric
-    ADD CONSTRAINT ehistoric_vactive_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanoactive ( volcanoidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE compositionInactive
+    ADD CONSTRAINT cInactive_vInactive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoInactive ( volcanoIdentifier );
 
-ALTER TABLE eruptionhistoric
-    ADD CONSTRAINT ehistoric_vcaldera_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanocaldera ( volcanoidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE eruptionHistoric
+    ADD CONSTRAINT eHistoric_eCategory_FK FOREIGN KEY ( categoryIdentifier )
+        REFERENCES eruptionCategory ( categoryIdentifier );
 
-ALTER TABLE eruptionprehistoric
-    ADD CONSTRAINT eprehistoric_vactive_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanoactive ( volcanoidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE eruptionHistoric
+    ADD CONSTRAINT eHistoric_vActive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoActive ( volcanoIdentifier );
 
-ALTER TABLE eruptionprehistoric
-    ADD CONSTRAINT eprehistoric_vcaldera_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanocaldera ( volcanoidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE eruptionHistoric
+    ADD CONSTRAINT eHistoric_vCaldera_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoCaldera ( volcanoIdentifier );
 
-ALTER TABLE eruptionprehistoric
-    ADD CONSTRAINT eprehistoric_vinactive_fk FOREIGN KEY ( volcanoidentifier )
-        REFERENCES volcanoinactive ( volcanoidentifier )
-            ON DELETE CASCADE;
+ALTER TABLE eruptionPrehistoric
+    ADD CONSTRAINT ePrehistoric_vActive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoActive ( volcanoIdentifier );
+
+ALTER TABLE eruptionPrehistoric
+    ADD CONSTRAINT ePrehistoric_vCaldera_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoCaldera ( volcanoIdentifier );
+
+ALTER TABLE eruptionPrehistoric
+    ADD CONSTRAINT ePrehistoric_vInactive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoInactive ( volcanoIdentifier );
+
+ALTER TABLE historyActive
+    ADD CONSTRAINT hActive_vActive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoActive ( volcanoIdentifier );
+
+ALTER TABLE historyInactive
+    ADD CONSTRAINT hActive_vInactive_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoInactive ( volcanoIdentifier );
+
+ALTER TABLE historyCaldera
+    ADD CONSTRAINT hActive_vCaldera_FK FOREIGN KEY ( volcanoIdentifier )
+        REFERENCES volcanoCaldera ( volcanoIdentifier );
