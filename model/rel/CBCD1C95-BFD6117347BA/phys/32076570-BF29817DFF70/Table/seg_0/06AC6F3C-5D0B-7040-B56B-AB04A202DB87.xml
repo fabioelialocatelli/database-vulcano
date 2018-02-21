@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMPOSITIONCALDERA" directorySegmentName="seg_0" id="06AC6F3C-5D0B-7040-B56B-AB04A202DB87">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6F22B222-E895-9CFC-470D-1F67FF87FEA3</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VOLCANOIDENTIFIER" id="21472993-E350-2135-12AC-3F12B646D040">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATERIALIDENTIFIER" id="3DEEEF15-B1CB-FE56-2A81-6C846AF9FFBA">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATERIALOCCURRENCE" id="8951494C-4341-0633-4A06-4582DC3B2ABA">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMPOSITIONCALDERA_PK" id="8E293C8B-D392-7F50-D99F-B2FE33853FAC">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CCALDERA_VCALDERA_FK" id="21F86C89-8A1E-8177-E040-C355A4F60191">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CCALDERA_MATERIAL_FK" id="E69FE904-864B-5C48-1DD5-261CF9CDF8E7">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPOSITIONCALDERA_PK" id="F52C5EB1-F9F5-8A6D-7036-EA81A649DCC7">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<existingIndex>8E293C8B-D392-7F50-D99F-B2FE33853FAC</existingIndex>
+<indexSegment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

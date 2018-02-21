@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MATERIAL" directorySegmentName="seg_0" id="A481CB23-A2B7-B671-5B85-010888553DE9">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6F22B222-E895-9CFC-470D-1F67FF87FEA3</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ISMAFIC" id="17B8CE7C-80B0-6672-1ABE-3155A7626B46">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRYSTALCONTENTPERCENTAGE" id="6329519B-1766-99C1-F253-7720118342B9">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATERIALIDENTIFIER" id="65121FC3-2EAB-7033-DA2C-30EAC5F5B009">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCIENTIFICNAME" id="6F197A24-08B0-FC08-3F2E-3C846A301A44">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALKALICONTENTPERCENTAGE" id="7CF4ADCB-1C89-AED4-2386-6F30A8FDB4AD">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SILICACONTENTPERCENTAGE" id="E37013A6-6DD0-450F-81B2-C11F0FBA3582">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISSILICIC" id="ECDD95C9-EACE-DB8B-DC44-3703E79C4295">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MATERIAL_PK" id="38AA73D8-AB2E-59AF-45FF-3BDA11915962">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MATERIAL_PK" id="195CCA46-9356-F4D0-D3C9-9821B0B2BD2A">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<existingIndex>38AA73D8-AB2E-59AF-45FF-3BDA11915962</existingIndex>
+<indexSegment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

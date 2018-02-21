@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAF036E3-F018-B725-71F2-3527D5DEE25C" containerWithKeyObject="689EF66F-CA4D-8D33-105B-65E90E03080B" localFKIndex="9E9E6715-41E6-FD0C-7B5E-E48F9B0EF620" name="CINACTIVE_MATERIAL_FK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>CINACTIVE_MATERIAL_FK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>FABIO.MATERIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A481CB23-A2B7-B671-5B85-010888553DE9</referredTableID>
+<keyObject>195CCA46-9356-F4D0-D3C9-9821B0B2BD2A</keyObject>
+<referredKeyID>195CCA46-9356-F4D0-D3C9-9821B0B2BD2A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MATERIALIDENTIFIER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

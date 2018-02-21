@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA366B19-053D-6D3C-525E-73294AAF7AF2" schemaObject="E8697088-7105-F55B-79C3-8F67D00FD7F9" name="COMPOSITIONACTIVE">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>COMPOSITIONACTIVE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATERIALIDENTIFIER" id="B8D4EA3F-5A8C-578C-A5A4-62ED0DC9FCE0">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>COMPOSITIONACTIVE</sourceObjSchema>
+<sourceObjName>MATERIALIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B938C74B-DFBB-87AF-CC77-2972BF2623CA" referredColumn="65121FC3-2EAB-7033-DA2C-30EAC5F5B009"/>
+</associations>
+</Column>
+<Column name="VOLCANOIDENTIFIER" id="F908BFC9-9240-089A-E034-0780131B955E">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>COMPOSITIONACTIVE</sourceObjSchema>
+<sourceObjName>VOLCANOIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23BA19AA-BB4A-10B5-4224-6945A3FF2966" referredColumn="4B4F7F92-10F5-C7FE-A8BE-7A6A904F990E"/>
+</associations>
+</Column>
+<Column name="MATERIALOCCURRENCE" id="6D44C38A-2C4A-CF0D-057B-BC8821F1402E">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>COMPOSITIONACTIVE</sourceObjSchema>
+<sourceObjName>MATERIALOCCURRENCE</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86EC07E6-325A-B57E-5F4B-D636EA2BA783" name="COMPOSITIONACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>COMPOSITIONACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D4EA3F-5A8C-578C-A5A4-62ED0DC9FCE0"/>
+<colUsage columnID="F908BFC9-9240-089A-E034-0780131B955E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53DD1837-C5B8-D09E-EBFE-9629CB8AECFF" schemaObject="E8697088-7105-F55B-79C3-8F67D00FD7F9" name="COMPOSITIONACTIVE_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>COMPOSITIONACTIVE_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D4EA3F-5A8C-578C-A5A4-62ED0DC9FCE0"/>
+<colUsage columnID="F908BFC9-9240-089A-E034-0780131B955E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCB93FCF-9449-431B-072F-DDD91826D9CD" name="CACTIVE_MATERIAL_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D4EA3F-5A8C-578C-A5A4-62ED0DC9FCE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87B55C0B-01D2-C7C9-5F76-65C26C2E11A4" name="CACTIVE_VACTIVE_FK">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F908BFC9-9240-089A-E034-0780131B955E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

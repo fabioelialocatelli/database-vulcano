@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ERUPTIONCATEGORY" directorySegmentName="seg_0" id="14D8A883-DD14-7A1E-61F1-FC27810B9F29">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6F22B222-E895-9CFC-470D-1F67FF87FEA3</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAXIMUMVEI" id="2D25C742-264C-FE9D-4D0A-C634A34EFFAC">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORYIDENTIFIER" id="E426F9FF-980A-DA74-31EC-EA44D61DC6F0">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTOR" id="EA5C2C53-CAF7-19B0-E6A3-64B4CD7B2C2E">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SCIENTIFICNAME" id="F5D66411-5EAD-DC4D-1C52-1A58DF629304">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ERUPTIONCATEGORY_PK" id="1F989A3F-98A9-497A-CE0C-61996B1F503A">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>E8697088-7105-F55B-79C3-8F67D00FD7F9</schemaObject>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ERUPTIONCATEGORY_PK" id="FBECD1F8-42E1-4F8A-C195-4AE3B4DA8A53">
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</segment>
+<tableSpace>F7D93995-C05E-6531-6A8B-C62686BCE7D7</tableSpace>
+<existingIndex>1F989A3F-98A9-497A-CE0C-61996B1F503A</existingIndex>
+<indexSegment>77FBF0BC-F748-DAF6-4E3B-8EDD3C928DA7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

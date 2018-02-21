@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="607DDC08-360D-B565-63BD-6771C2D9D879" containerWithKeyObject="D257D393-031D-E366-4BBE-91E899E16934" localFKIndex="8203764A-1A59-3469-3A1A-8994EFD01703" name="HACTIVE_VACTIVE_FK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>HACTIVE_VACTIVE_FK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>FABIO.VOLCANOACTIVE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20EB6652-751C-F655-4B50-93720C691677</referredTableID>
+<keyObject>FD277F00-0B0B-7678-92E2-6DBCD620EFE8</keyObject>
+<referredKeyID>FD277F00-0B0B-7678-92E2-6DBCD620EFE8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VOLCANOIDENTIFIER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

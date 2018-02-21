@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14D8A883-DD14-7A1E-61F1-FC27810B9F29" schemaObject="E8697088-7105-F55B-79C3-8F67D00FD7F9" name="ERUPTIONCATEGORY">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONCATEGORY</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORYIDENTIFIER" id="E426F9FF-980A-DA74-31EC-EA44D61DC6F0">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONCATEGORY</sourceObjSchema>
+<sourceObjName>CATEGORYIDENTIFIER</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCIENTIFICNAME" id="F5D66411-5EAD-DC4D-1C52-1A58DF629304">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONCATEGORY</sourceObjSchema>
+<sourceObjName>SCIENTIFICNAME</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTOR" id="EA5C2C53-CAF7-19B0-E6A3-64B4CD7B2C2E">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONCATEGORY</sourceObjSchema>
+<sourceObjName>DESCRIPTOR</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAXIMUMVEI" id="2D25C742-264C-FE9D-4D0A-C634A34EFFAC">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>ERUPTIONCATEGORY</sourceObjSchema>
+<sourceObjName>MAXIMUMVEI</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBECD1F8-42E1-4F8A-C195-4AE3B4DA8A53" name="ERUPTIONCATEGORY_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONCATEGORY_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E426F9FF-980A-DA74-31EC-EA44D61DC6F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F989A3F-98A9-497A-CE0C-61996B1F503A" schemaObject="E8697088-7105-F55B-79C3-8F67D00FD7F9" name="ERUPTIONCATEGORY_PK">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ERUPTIONCATEGORY_PK</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E426F9FF-980A-DA74-31EC-EA44D61DC6F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

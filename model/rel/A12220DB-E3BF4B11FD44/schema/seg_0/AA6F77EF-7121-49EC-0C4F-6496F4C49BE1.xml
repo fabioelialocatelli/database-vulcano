@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="FABIO" directorySegmentName="seg_0" id="AA6F77EF-7121-49EC-0C4F-6496F4C49BE1">
-<createdBy>FabioL</createdBy>
-<createdTime>2018-02-20 03:07:55 UTC</createdTime>
-<ownerDesignName>model</ownerDesignName>
-</SchemaObject>

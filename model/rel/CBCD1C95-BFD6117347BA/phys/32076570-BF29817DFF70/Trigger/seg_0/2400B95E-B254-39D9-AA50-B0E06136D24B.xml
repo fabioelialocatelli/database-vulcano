@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACTIVEADDED" directorySegmentName="seg_0" id="2400B95E-B254-39D9-AA50-B0E06136D24B">
+<sourceConnName>Development</sourceConnName>
+<sourceObjSchema>FABIO</sourceObjSchema>
+<sourceObjName>ACTIVEADDED</sourceObjName>
+<createdBy>FabioL</createdBy>
+<createdTime>2018-02-21 01:46:49 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    DECLARE&lt;br/&gt;        timestampSystem       TIMESTAMP := SYSTIMESTAMP;&lt;br/&gt;        timestampFormatting   VARCHAR2(30 CHAR) := &apos;DD-MM-YYYY HH24:MI:SS&apos;;&lt;br/&gt;        timestampFormatted    VARCHAR2(30 CHAR) := TO_CHAR(timestampSystem,timestampFormatting);&lt;br/&gt;        newActive             VARCHAR2(45 CHAR) :=:NEW.localName;&lt;br/&gt;        newActiveFormatted    VARCHAR2(45 CHAR) := LOWER(REGEXP_REPLACE(newActive,&apos;\s&apos;) );&lt;br/&gt;        volcanoIdentifier     VARCHAR2(45 CHAR) :=:NEW.volcanoIdentifier;&lt;br/&gt;        operationIdentifier   VARCHAR2(95 CHAR) := timestampFormatted&lt;br/&gt;        || &apos; added &apos;&lt;br/&gt;        || newActiveFormatted;&lt;br/&gt;    BEGIN&lt;br/&gt;        INSERT INTO historyActive (&lt;br/&gt;            operationIdentifier,&lt;br/&gt;            operationTime,&lt;br/&gt;            operationType,&lt;br/&gt;            localName,&lt;br/&gt;            volcanoIdentifier&lt;br/&gt;        ) VALUES (&lt;br/&gt;            operationIdentifier,&lt;br/&gt;            timestampFormatted,&lt;br/&gt;            &apos;INSERTION&apos;,&lt;br/&gt;            newActive,&lt;br/&gt;            volcanoIdentifier&lt;br/&gt;        );&lt;br/&gt;&lt;br/&gt;    END;&lt;br/&gt;END;&lt;br/&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>A4D11B74-ACDF-303E-90C6-F25F03E25C75</owner>
+<table>20EB6652-751C-F655-4B50-93720C691677</table>
+</TriggerOraclev10g>
