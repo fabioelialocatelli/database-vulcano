@@ -1,23 +1,47 @@
-INSERT INTO "FABIO"."VOLCANOCALDERA" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('CMP', 'Campi Flegrei');
-INSERT INTO "FABIO"."VOLCANOCALDERA" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('TBA', 'Toba');
-INSERT INTO "FABIO"."VOLCANOCALDERA" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('TPO', 'Taupo');
+TRUNCATE TABLE historyCaldera;
+DELETE FROM volcanoCaldera WHERE volcanoIdentifier = 'CMP';
+DELETE FROM volcanoCaldera WHERE volcanoIdentifier = 'TBA';
+DELETE FROM volcanoCaldera WHERE volcanoIdentifier = 'TPO';
+DELETE FROM volcanoCaldera WHERE volcanoIdentifier = 'LGR';
 
-INSERT INTO "FABIO"."VOLCANOACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('TNA', 'Etna');
-INSERT INTO "FABIO"."VOLCANOACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('RPH', 'Ruapehu');
-INSERT INTO "FABIO"."VOLCANOACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('TRW', 'Tarawera');
+INSERT INTO volcanoCaldera (volcanoIdentifier, localName) VALUES ('CMP', 'Campi Flegrei');
+INSERT INTO volcanoCaldera (volcanoIdentifier, localName) VALUES ('TBA', 'Toba');
+INSERT INTO volcanoCaldera (volcanoIdentifier, localName) VALUES ('TPO', 'Taupo');
+INSERT INTO volcanoCaldera (volcanoIdentifier, localName) VALUES ('LGR', 'La Garita');
 
-INSERT INTO "FABIO"."VOLCANOINACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('MKS', 'Emi Koussi');
-INSERT INTO "FABIO"."VOLCANOINACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('VLT', 'Vulture');
-INSERT INTO "FABIO"."VOLCANOINACTIVE" (VOLCANOIDENTIFIER, LOCALNAME) VALUES ('MTA', 'Amiata');
+TRUNCATE TABLE historyActive;
+DELETE FROM volcanoActive WHERE volcanoIdentifier = 'TNA';
+DELETE FROM volcanoActive WHERE volcanoIdentifier = 'RPH';
+DELETE FROM volcanoActive WHERE volcanoIdentifier = 'TRW';
+DELETE FROM volcanoActive WHERE volcanoIdentifier = 'SFR';
 
-UPDATE "FABIO"."VOLCANOCALDERA" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'CMP';
-UPDATE "FABIO"."VOLCANOCALDERA" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'TBA';
-UPDATE "FABIO"."VOLCANOCALDERA" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'TPO';
+INSERT INTO volcanoActive (volcanoIdentifier, localName) VALUES ('TNA', 'Etna');
+INSERT INTO volcanoActive (volcanoIdentifier, localName) VALUES ('RPH', 'Ruapehu');
+INSERT INTO volcanoActive (volcanoIdentifier, localName) VALUES ('TRW', 'Tarawera');
+INSERT INTO volcanoActive (volcanoIdentifier, localName) VALUES ('SFR', 'Soufrière Hills');
 
-UPDATE "FABIO"."VOLCANOACTIVE" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'TNA';
-UPDATE "FABIO"."VOLCANOACTIVE" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'RPH';
-UPDATE "FABIO"."VOLCANOACTIVE" SET ISDECADE = '0' WHERE VOLCANOIDENTIFIER = 'TRW';
+TRUNCATE TABLE historyInactive;
+DELETE FROM volcanoInactive WHERE volcanoIdentifier = 'MKS';
+DELETE FROM volcanoInactive WHERE volcanoIdentifier = 'VLT';
+DELETE FROM volcanoInactive WHERE volcanoIdentifier = 'MTA';
+DELETE FROM volcanoInactive WHERE volcanoIdentifier = 'RCC';
 
-UPDATE "FABIO"."VOLCANOINACTIVE" SET SMITHSONIANIDENTIFIER = '12345' WHERE VOLCANOIDENTIFIER = 'MKS';
-UPDATE "FABIO"."VOLCANOINACTIVE" SET SMITHSONIANIDENTIFIER = '12345' WHERE VOLCANOIDENTIFIER = 'VLT';
-UPDATE "FABIO"."VOLCANOINACTIVE" SET SMITHSONIANIDENTIFIER = '12345' WHERE VOLCANOIDENTIFIER = 'MTA';
+INSERT INTO volcanoInactive (volcanoIdentifier, localName) VALUES ('MKS', 'Emi Koussi');
+INSERT INTO volcanoInactive (volcanoIdentifier, localName) VALUES ('VLT', 'Vulture');
+INSERT INTO volcanoInactive (volcanoIdentifier, localName) VALUES ('MTA', 'Amiata');
+INSERT INTO volcanoInactive (volcanoIdentifier, localName) VALUES ('RCC', 'Roccamonfina');
+
+UPDATE volcanoCaldera SET isDecade = '0' WHERE volcanoIdentifier = 'CMP';
+UPDATE volcanoCaldera SET isDecade = '0' WHERE volcanoIdentifier = 'TBA';
+UPDATE volcanoCaldera SET isDecade = '0' WHERE volcanoIdentifier = 'TPO';
+UPDATE volcanoCaldera SET isDecade = '0' WHERE volcanoIdentifier = 'LGR';
+
+UPDATE volcanoActive SET isDecade = '0' WHERE volcanoIdentifier = 'TNA';
+UPDATE volcanoActive SET isDecade = '0' WHERE volcanoIdentifier = 'SFR';
+
+UPDATE volcanoActive SET isDecade = NULL WHERE volcanoIdentifier = 'RPH';
+UPDATE volcanoActive SET isDecade = NULL WHERE volcanoIdentifier = 'TRW';
+
+UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'MKS';
+UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'VLT';
+UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'MTA';

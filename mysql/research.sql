@@ -23,3 +23,5 @@ SELECT
 SELECT 
     CAST(ROUND(UNIX_TIMESTAMP(CURRENT_TIME(5)) * 1000)
         AS CHAR);
+        
+SELECT COALESCE(NULL, 'Deccan Traps', NULL, 'Pinatubo');
