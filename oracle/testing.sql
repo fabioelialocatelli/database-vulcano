@@ -45,3 +45,4 @@ UPDATE volcanoActive SET isDecade = NULL WHERE volcanoIdentifier = 'TRW';
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'MKS';
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'VLT';
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'MTA';
+UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'RCC';

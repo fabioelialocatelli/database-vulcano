@@ -1,1 +1,15 @@
-SELECT COALESCE(NULL, 'Deccan Traps', NULL, 'Pinatubo');
+USE vulcano
+
+SELECT CONVERT(CHAR(10), GETDATE(), 111)
+
+SELECT CONVERT(CHAR(25), GETDATE(), 113)
+
+SELECT CONVERT(CHAR(10), SYSDATETIME(), 110)
+
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd HH:mm:ss.fff')
+
+SELECT FORMAT(SYSDATETIME(), 'yyyy-MM-dd HH:mm:ss.fff')
+
+SELECT COALESCE(NULL, 'Deccan Traps', NULL, 'Pinatubo')
+
+SELECT ISNULL(CAST(isDecade AS CHAR(15)), 'Gone Missing') FROM volcanoActive

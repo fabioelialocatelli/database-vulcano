@@ -1,3 +1,5 @@
+USE vulcano;
+
 SELECT DATE_FORMAT(CURRENT_TIMESTAMP(), '%X%U%H%I%S%f');
 
 SELECT DATE_FORMAT(CURRENT_TIMESTAMP(), '%f');
@@ -25,3 +27,8 @@ SELECT
         AS CHAR);
         
 SELECT COALESCE(NULL, 'Deccan Traps', NULL, 'Pinatubo');
+
+SELECT 
+    IFNULL(isDecade, 'Gone Missing')
+FROM
+    volcanoActive;
