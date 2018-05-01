@@ -48,3 +48,13 @@ UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifi
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'VLT';
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'MTA';
 UPDATE volcanoInactive SET smithsonianIdentifier = '12345' WHERE volcanoIdentifier = 'RCC';
+
+UPDATE volcanoInactive SET smithsonianIdentifier = '3000' WHERE volcanoIdentifier = 'MKS';
+UPDATE volcanoInactive SET smithsonianIdentifier = '3001' WHERE volcanoIdentifier = 'VLT';
+UPDATE volcanoInactive SET smithsonianIdentifier = '3002' WHERE volcanoIdentifier = 'MTA';
+UPDATE volcanoInactive SET smithsonianIdentifier = '3003' WHERE volcanoIdentifier = 'RCC';
+
+UPDATE volcanoActive SET smithsonianIdentifier = '3005' WHERE volcanoIdentifier = 'TNA';
+UPDATE volcanoActive SET smithsonianIdentifier = '3006' WHERE volcanoIdentifier = 'RPH';
+UPDATE volcanoActive SET smithsonianIdentifier = '3007' WHERE volcanoIdentifier = 'TRW';
+UPDATE volcanoActive SET smithsonianIdentifier = '3008' WHERE volcanoIdentifier = 'SFR';
