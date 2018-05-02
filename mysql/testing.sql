@@ -58,3 +58,8 @@ UPDATE volcanoActive SET smithsonianIdentifier = '3005' WHERE volcanoIdentifier 
 UPDATE volcanoActive SET smithsonianIdentifier = '3006' WHERE volcanoIdentifier = 'RPH';
 UPDATE volcanoActive SET smithsonianIdentifier = '3007' WHERE volcanoIdentifier = 'TRW';
 UPDATE volcanoActive SET smithsonianIdentifier = '3008' WHERE volcanoIdentifier = 'SFR';
+
+UPDATE volcanoActive SET smithsonianIdentifier = '5000' WHERE volcanoIdentifier = 'TNA';
+UPDATE volcanoActive SET smithsonianIdentifier = '4000' WHERE volcanoIdentifier = 'RPH';
+UPDATE volcanoActive SET smithsonianIdentifier = '3000' WHERE volcanoIdentifier = 'TRW';
+UPDATE volcanoActive SET smithsonianIdentifier = '2000' WHERE volcanoIdentifier = 'SFR';
